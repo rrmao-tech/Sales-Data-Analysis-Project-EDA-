@@ -45,12 +45,13 @@ This project showcases a full **Exploratory Data Analysis (EDA)** workflow on a 
 
 ---
 
-## 📈 Example Visualization (Add your screenshot here)
+## 📈 Visual Insights
 
-```md
+### Sales Distribution
 ![Sales Distribution](./assets/sales_histogram.png)
-```
----
+
+### Average Sales by Quantity
+![Sales by Quantity](./assets/sales_bar.png)
 
 ## 🛠 Tech Stack
 - Python
