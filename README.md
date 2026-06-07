@@ -8,40 +8,44 @@
 </p>
 
 <p align="center">
-  <b>Transforming Raw Data into Actionable Business Insights</b><br>
-  <i>Exploratory Data Analysis | Data Cleaning | Visualization | Business Thinking</i>
+<b>Transforming Raw Data into Actionable Business Insights</b><br>
+<i>Exploratory Data Analysis | Data Cleaning | Visualization | Business Thinking</i>
 </p>
 
 ---
 
 ## 📌 Project Overview
-This project showcases a full **Exploratory Data Analysis (EDA)** workflow on a real-world sales dataset.
+This project demonstrates an end-to-end **Exploratory Data Analysis (EDA)** workflow on sales data, focusing on turning raw data into **business decisions**.
 
-🔍 The focus is not just analysis — but **turning data into business decisions**.
+---
+
+## 🔗 Project Links
+- 📊 Notebook: [View Analysis](./EDA_Assessment_Activity.ipynb)
+- 📁 Dataset: [sales_data.csv](./sales_data.csv)
 
 ---
 
 ## 🎯 Key Highlights
-- Cleaned messy, real-world data (missing values, duplicates, outliers)
-- Built meaningful visualizations to uncover patterns
-- Engineered new features for deeper insights
-- Translated data findings into **business strategies**
+- Cleaned messy real-world data (missing values, duplicates, outliers)
+- Built visualizations to uncover patterns
+- Engineered features for deeper insights
+- Translated findings into business strategies
 
 ---
 
 ## 📊 Key Insights
 
-### 💡 Sales Distribution
-- Most transactions fall within **150–300 range**
-- Indicates strong mid-range pricing preference
+### 💡 Pricing Strategy Insight
+- Majority of transactions occur within the **150–300 range**  
+- 👉 Recommendation: Focus pricing and promotions in this range to maximize revenue  
 
-### 💡 Customer Behavior
-- Highest revenue occurs when customers buy **3 items**
-- Suggests opportunity for bundle strategies
+### 💡 Customer Behavior Insight
+- Customers purchasing **3 items generate the highest revenue**  
+- 👉 Recommendation: Use bundle offers to increase average order value  
 
-### 💡 Product Strategy
-- **Books category** has highest revenue per unit
-- Ideal for marketing focus & expansion
+### 💡 Product Strategy Insight
+- **Books category** has highest revenue per unit  
+- 👉 Recommendation: Prioritize this category for marketing and expansion  
 
 ---
 
@@ -53,6 +57,8 @@ This project showcases a full **Exploratory Data Analysis (EDA)** workflow on a 
 ### Average Sales by Quantity
 ![Sales by Quantity](./assets/sales_bar.png)
 
+---
+
 ## 🛠 Tech Stack
 - Python
 - Pandas
@@ -63,7 +69,6 @@ This project showcases a full **Exploratory Data Analysis (EDA)** workflow on a 
 ---
 
 ## ⚙️ Workflow
-
 1. Data Loading & Inspection  
 2. Data Cleaning  
 3. Outlier Detection (IQR)  
@@ -75,46 +80,29 @@ This project showcases a full **Exploratory Data Analysis (EDA)** workflow on a 
 
 ## 📂 Project Structure
 ```
-EDA_Project/
-├── data/
-├── notebooks/
-├── assets/        # charts/screenshots
-├── README.md
+.
+├── EDA_Assessment_Activity.ipynb
+├── sales_data.csv
+├── assets/
+│   ├── sales_histogram.png
+│   └── sales_bar.png
+└── README.md
 ```
 
 ---
 
 ## 💼 What This Project Demonstrates
-- Ability to handle **real-world messy datasets**
-- Strong understanding of **EDA techniques**
-- Capability to connect data → **business decisions**
-- Clear communication of insights
+- Ability to handle messy datasets  
+- Strong EDA and visualization skills  
+- Translating data → business decisions  
 
 ---
 
-## 🚀 How to Run
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install pandas matplotlib seaborn
-jupyter notebook
-```
-
----
-
-## ⭐ Why This Stands Out
-Unlike basic projects, this one:
-- Focuses on **decision-making**, not just coding
-- Shows **business awareness**
-- Is structured like a **real industry project**
+## 📊 Final Takeaway
+This project shows how raw sales data can be transformed into actionable strategies such as pricing optimization, customer behavior insights, and product focus decisions.
 
 ---
 
 ## 👤 Author
 **MAO, RR**  
 📅 2026
-
----
-
-## 🔥 Recruiter Note
-This project reflects practical data analysis skills including cleaning, visualization, and insight generation — aligned with real-world business scenarios.
