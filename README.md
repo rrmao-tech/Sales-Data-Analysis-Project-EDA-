@@ -50,8 +50,6 @@ This project showcases a full **Exploratory Data Analysis (EDA)** workflow on a 
 ```md
 ![Sales Distribution](./assets/sales_histogram.png)
 ```
-![Uploading image.png…]()
-
 ---
 
 ## 🛠 Tech Stack
